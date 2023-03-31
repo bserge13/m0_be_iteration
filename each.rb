@@ -15,7 +15,7 @@ words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
 
 weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
 
-weather_options.each do |options|
-    puts "The forecast today is #{options}!"
+weather_options.each do |option|
+    puts "The forecast today is #{option}!"
 end 
 
