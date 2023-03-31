@@ -15,7 +15,18 @@ words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
 
 weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
 
+
+# Challenge 1
 weather_options.each do |option|
     puts "The forecast today is #{option}!"
 end 
 
+
+
+#Challenge 2
+
+words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
+
+words.each do |word| 
+  if  word.length == 3 
+    puts word
